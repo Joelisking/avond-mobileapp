@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 const windowDimensions = Dimensions.get('window');
 
-export default function App() {
+export default function Home() {
   const windowWidth = Dimensions.get('window').width;
   const [fontsLoaded, fontError] = useFonts({
     NeueHaas: require('./assets/fonts/NeueHaasDisplayMediu.ttf'),
